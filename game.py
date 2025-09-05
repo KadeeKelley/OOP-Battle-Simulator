@@ -10,9 +10,9 @@ def main():
     hero = Hero(input("What would you like to name your hero?"))
 
     # Create goblins ༼ ºل͟º ༽ ༼ ºل͟º ༽ ༼ ºل͟º ༽
-    goblins = [Goblin(f"Goblin {i+1}") for i in range(3)]
+    goblins = [Goblin(f"Goblin {i+1}", "pink") for i in range(3)]
 
-    # Keep track of how many goblins were defeated
+    # Keep track of how many goblins were defeatedl
     defeated_goblins = 0
     total_damage = 0
     rounds = 0
